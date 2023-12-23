@@ -2,6 +2,7 @@
 
 body {
   margin: 0;
+  font-family: "Open Sans", sans-serif;
 }
 
 .page {
@@ -9,7 +10,7 @@ body {
   margin: 65px auto 0;
 }
 
-header {
+nav {
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -24,36 +25,24 @@ ul {
   padding: 0;
 }
 
-ul,
-a {
+ul li a:hover {
+  font-weight: bold;
+}
+
+ul li a {
   text-decoration: none;
   color: #1f1534;
-  font-family: "Mulish", sans-serif;
   font-size: 18px;
 }
 
-section,
+h1,
+ul {
+  font-family: "Mulish", sans-serif;
+}
+
 h1 {
-  font-family: "DM Sans", sans-serif;
   font-size: 49px;
-  color: #000000;
-  font-weight: normal;
-}
-
-span {
-  font-weight: bold;
-  color: #89c5cc;
-}
-
-section,
-p {
-  font-family: "Open Sans", sans-serif;
-  font-size: 14px;
-  color: #1f1534;
-}
-
-footer {
-  font-family: "Open Sans", sans-serif;
-  font-size: 14px;
+  line-height: 56px;
+  font-family: "Mulish", sans-serif;
   color: #000000;
 }
