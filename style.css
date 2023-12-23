@@ -45,4 +45,19 @@ h1 {
   line-height: 56px;
   font-family: "Mulish", sans-serif;
   color: #000000;
+  font-weight: normal;
+  width: 490px;
+}
+
+h1 span {
+  color: #89c5cc;
+  font-weight: bold;
+}
+
+p {
+  margin-top: 40px;
+  width: 438px;
+  font-size: 14px;
+  line-height: 28px;
+  font-family: "DM Sans", sans-serif;
 }
