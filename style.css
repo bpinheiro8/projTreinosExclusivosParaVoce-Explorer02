@@ -40,6 +40,12 @@ ul {
   font-family: "Mulish", sans-serif;
 }
 
+main {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
 h1 {
   font-size: 49px;
   line-height: 56px;
@@ -54,18 +60,27 @@ h1 span {
 }
 
 p {
-  margin-top: 40px;
+  font-family: "DM Sans", sans-serif;
+}
+
+section p {
   width: 438px;
   font-size: 14px;
   line-height: 28px;
-  font-family: "DM Sans", sans-serif;
   color: #7d7987;
+  margin: 40px 0;
 }
 
 button {
   text-transform: uppercase;
   font-family: "Open Sans", sans-serif;
   font-size: 16px;
+  width: 179px;
+  height: 56px;
+  border-radius: 4;
+  border: none;
+  color: #f9f9f9;
+  background: #69b99d;
 }
 
 footer {
@@ -73,6 +88,8 @@ footer {
   font-size: 14px;
   line-height: 28px;
   color: #000000;
+  text-align: center;
+  margin-top: 80px;
 }
 
 footer a {
